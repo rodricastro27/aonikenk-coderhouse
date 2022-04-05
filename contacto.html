@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Nanum+Myeongjo&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Aonikenk</title>
+  </head>
+  <body>
+    <header class="header__producto">
+      <div class="header__container--producto">
+        <img
+          class="header__logo--producto"
+          src="./img/LOGO.png"
+          alt="logo header"
+        />
+      </div>
+
+      <div class="header__social">
+        <a href="http://facebook.com/aonikenkpasteleria" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-facebook"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ffffff"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+            />
+          </svg>
+        </a>
+
+        <a href="http://instagram.com/aonikenk.pasteleria" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-instagram"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ffffff"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg>
+        </a>
+
+        <a href="http://pinterest.com/aonikenkp/" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-brand-pinterest"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#ffffff"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <line x1="8" y1="20" x2="12" y2="11" />
+            <path
+              d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"
+            />
+            <circle cx="12" cy="12" r="9" />
+          </svg>
+        </a>
+      </div>
+
+      <nav class="nav__bg--producto">
+        <a class="nav__bg--enlaces" href="index.html">Inicio</a>
+        <a class="nav__bg--enlaces" href="productos.html">Productos</a>
+        <a class="nav__bg--enlaces" href="nosotros.html">Nosotros</a>
+        <a class="nav__bg--enlaces" href="contacto.html">Contacto</a>
+        <a class="nav__bg--enlaces" href="faq.html">FAQ</a>
+      </nav>
+    </header>
+    <!-- Fin del header, incluye logo, barra de navegación y logos de rr.ss -->
+    <main>
+
+        <form class="formulario" action="" method="get" enctype="application/x-www-form-urlencoded">
+
+            <fieldset class="formulario__fieldset">
+
+                <legend class="formulario__legend">Contáctanos completando el formulario</legend>
+                
+                <div class="formulario__container">
+                  <div class="formulario__container--campo">
+                    <label class="formulario__label" for="nombre">Nombre</label>
+                    <input class="formulario__input" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                  </div>
+                
+                  <div class="formulario__container--campo">
+                      <label class="formulario__label" for="apellido">Apellido</label>
+                      <input class="formulario__input" type="text" name="apellido" id="apellido" placeholder="Ingresa tu apellido">
+                  </div>
+               
+                  <div class="formulario__container--campo">
+                      <label class="formulario__label" for="email">E-mail</label>
+                      <input class="formulario__input" type="email" name="email" id="email" placeholder="Ingresa tu E-mail">
+                  </div>
+                                
+                  <div class="formulario__container--campo">
+                      <label class="formulario__label" for="mensaje">Mensaje</label>
+                      <textarea class="formulario__textarea" name="mensaje" id="mensaje"  rows="10"></textarea>
+                  </div>
+                </div>    
+
+                    <select class="formulario__select" name="sexo" id=""> 
+                        <option class="formulario__option" hidden selected>Selecciona tu sexo</option>
+                        <option class="formulario__option" value="Hombre">Hombre</option>
+                        <option class="formulario__option" value="Mujer">Mujer</option>
+                        <option class="formulario__option" value="Otro">Otro</option>
+                    </select>
+
+                  <div>
+                      <label class="formulario__label--condiciones" for="terminos-condiciones">Acepto los terminos y condiciones</label>
+                      <input class="formulario__checkbox" type="checkbox" id="terminos-condiciones">
+                  </div>
+
+                  <br>
+               
+                  <div class="formulario__campo-boton">
+                    <div class="formulario__campo-boton--container">
+                      <input class="formulario__boton" type="reset" value="Limpiar formulario">
+                    </div>
+
+                    <div class="formulario__campo-boton--container">
+                     <input class="formulario__boton" type="submit" value="Enviar formulario">
+                    </div>
+                  </div>
+                        
+            </fieldset>
+        </form>
+    </main>
+<!-- fin de la seccion contacto con el formulario -->
+<footer class="footer">
+    <div class="footer__ubicacion">
+      <iframe
+        width="200"
+        height="200"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=es&amp;q=Santa%20fe,%20Argentina+(Aonikenk)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+      >
+        <a href="https://www.gps.ie/car-satnav-gps/">GPS devices</a></iframe
+      >
+    </div>
+
+    <p class="footer__parrafo">
+      Todos los derechos reservados © Aonikenk - Santa Fe, Argentina
+    </p>
+
+    <div class="footer__social">
+      <div class="footer__social--parrafo">
+        <p>Seguinos</p>
+      </div>
+
+      <a href="http://facebook.com/aonikenkpasteleria" target="_blank">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-brand-facebook"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#ffffff"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path
+            d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+          />
+        </svg>
+      </a>
+
+      <a href="http://instagram.com/aonikenk.pasteleria" target="_blank">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-brand-instagram"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#ffffff"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <rect x="4" y="4" width="16" height="16" rx="4" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+        </svg>
+      </a>
+
+      <a href="http://pinterest.com/aonikenkp/" target="_blank">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon icon-tabler icon-tabler-brand-pinterest"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="#ffffff"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <line x1="8" y1="20" x2="12" y2="11" />
+          <path
+            d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"
+          />
+          <circle cx="12" cy="12" r="9" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="footer__informacion">
+      <p>
+        <strong>Horarios</strong> <br />
+        Lunes a Viernes: 8 a 18 hs <br />
+        Sabados: 8 a 12 hs <br />
+      </p>
+      <p>
+        <strong>Email:</strong> aonikenk.pasteleria@gmail.com <br />
+        <strong>Tel:</strong> 1234-567890
+      </p>
+      <p></p>
+    </div>
+
+    <div class="footer__logo">
+      <a href="#"
+        ><img
+          class="footer__logo--imagen"
+          src="./img/LOGO.png"
+          alt="logo footer"
+        />
+      </a>
+    </div>
+  </footer>
+  <!-- fin del footer -->
+</body>
+</html>
