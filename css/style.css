@@ -552,7 +552,7 @@ body {
 
 .footer__social--parrafo {
   position: absolute;
-  bottom: 4rem;
+  bottom: 3.5rem;
   right: 1rem;
   width: 10rem;
   margin: 0;
@@ -566,7 +566,7 @@ body {
 .footer__informacion {
   font-size: 1.5rem;
   position: absolute;
-  top: 1rem;
+  top: 0.5rem;
   left: 50%;
   transform: translate(-50%, 0%);
   color: white;
@@ -865,7 +865,7 @@ body {
 @media (min-width: 768px) { 
   .formulario {
     max-width: 70rem;
-    height: 55rem;
+    height: 50rem;
     margin: 10rem auto;
     background-color: #2e3036;
     padding: 1rem;
