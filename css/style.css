@@ -20,6 +20,7 @@ body {
     url(../img/header3.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
   height: 100vh;
   box-shadow: 0px 5px 15px 0px rgba(117,117,117,1);
   position: relative;
@@ -27,30 +28,76 @@ body {
 
 /* logo del sitio */
  .header__container {
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+ display: none;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width: 992px) {     
+  .header__container {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    animation: logo-header 3s infinite reverse;
+    animation-duration: linear;
+  }
+
+  @keyframes logo-header { 
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform:scale(1);
+  }
+}
+}
+
+@media (min-width: 992px) { 
     .header__container {
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      display: block;
+      position: absolute;
+      top: 3rem;
+      left: 5rem;
+      animation: logo-header 3s infinite reverse;
+      animation-duration: linear;
     }
+
+    @keyframes logo-header { 
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    100% {
+      transform:scale(1);
+    }
+  }
 }
 
 .header__logo {
   width: 250px;
+  height: 175px;
+}
+
+@media (min-width: 992px) { 
+  .header__logo {
+    width: 150px;
+    height: 80px;
+  }
+}
+
+/* CSS PURO PARA EL LOGO DEL HEADER */
+/* .header__logo {
+  width: 250px;
   height: 145px;
+  position: relative;
+  top: 30rem;
   animation: logo-header 3s infinite reverse;
   animation-duration: linear;
 }
 
-@keyframes logo-header { /* transformaciones y animaciones en el logo del index.html */
-  0% {
-    transform: scale(1);
+@keyframes logo-header { 
   }
 
   50% {
@@ -70,12 +117,13 @@ body {
       animation-duration: linear;
     }
 
-    @keyframes logo { /* transformaciones y animaciones en el logo del index.html */
+    @keyframes logo {
       100% {
         transform: rotate(360deg);
       }
     }
 }
+ */
 
 /* iconos con enlace a las redes sociales */
 .header__social {
@@ -85,6 +133,7 @@ body {
   justify-content: space-evenly;
   top: 1rem;
   right: 0;
+  z-index: 1;
 }
 
 @media (min-width: 768px) { 
@@ -100,28 +149,29 @@ body {
 
 
 /* ///barra de navegación/// */
-.nav__bg {
-  max-width: 100rem;
-  margin: 0 auto;
-  padding-top: 2rem;
+.nav__bg a {
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  top: 40%;
+  justify-content: flex-end;
 }
 
 @media (min-width: 768px) { 
-    .nav__bg {
-      flex-direction: row;
-      justify-content: space-between;  
-      position: relative;
-      top: 0;
-      padding-top: 5rem;
+    .nav__bg a {
+      font-size: 3rem;
+      font-weight: 700;
+      padding: 5rem 0;
+      color: red;
+      justify-content: space-around;
     }
 }
 
-.nav__bg--enlaces {
+/* CSS PURO PARA LOS ENLACES, POR AHORA COMENTADO */
+/* .nav__bg--enlaces {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
@@ -148,12 +198,12 @@ body {
     }
 }
 
-.nav__bg--enlaces:hover { /* pequeña transformación a los enlaces de la barra de navegación */
+.nav__bg--enlaces:hover { 
   color: #b9b8a9; 
   transform: translate(0px, 1rem);
   
 }
-
+ */
 
 /* ///contenido main/// */
 .main {
@@ -303,6 +353,9 @@ body {
 
 
 /* ///instagram feed/// */
+.carousel__container {
+  width: 240px;
+}
 .redes-sociales__titulo {
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -369,7 +422,7 @@ body {
   }
 }
 
-.redes-sociales__post {
+/* .redes-sociales__post {
   max-width: 100%;
   height: 30rem;
   overflow: hidden;
@@ -385,7 +438,7 @@ body {
     background: black;
     margin: 0;
   }
-}
+} */
 .redes-sociales__imagen {
   transition: 1s; 
 }
