@@ -624,7 +624,6 @@ body {
 
 /* //// productos.html //// */
 .header__producto {
-  background-color: #2e3036;
   width: 100%;
   height: 100%;
   position: relative;
@@ -651,31 +650,32 @@ body {
   width: 100px;
   height: 70px;
   display: none;
+  z-index: 1;
 }
 
 /* media queries para el logo del header */
-@media (min-width: 768px) and (max-width:1200px) { 
-  .header__logo--producto {
-    position: absolute;
-    top: 0.5rem;
-    left: 2rem;
-    width: 100px;
-    height: 70px;
-    display: block;
-    width: 80px;
-    height: 50px;
-  }
-}
-
 @media (min-width: 1200px) { 
   .header__logo--producto {
     position: absolute;
-    top: 0.5rem;
-    left: 2rem;
+    top: 1rem;
+    left: 3rem;
     width: 100px;
     height: 70px;
     display: block;
+    animation: logo-header 3s infinite reverse;
+    animation-duration: linear;
   }
+
+  @keyframes logo-header { 
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform:scale(1);
+  }
+}
 }
 
 .nav__bg--producto {
@@ -742,12 +742,9 @@ body {
 }
 
 .contenedor__imagen {
-  background-color: black;
+  background-color: transparent;
   overflow: hidden;
   display: inline-block;
-  justify-items: stretch;
-  max-width: 100%;
-  height: 99.5%;
 }
 
 .imagen__producto {
