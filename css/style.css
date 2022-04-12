@@ -138,41 +138,6 @@ body {
   }
 }
 
-/* CSS PURO PARA LOS ENLACES, POR AHORA COMENTADO */
-/* .nav__bg--enlaces {
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  padding: 1rem;
-  color: #f3f3f3;
-  transition: 1s;
-
-}
-
-@media (min-width: 768px) { 
-    .nav__bg--enlaces {
-      text-decoration: none;
-      text-transform: uppercase;
-      text-align: center;
-      font-size: 2rem;
-      font-family: "Poppins", sans-serif;
-      font-weight: 700;
-      padding: 1rem;
-      color: #f3f3f3;
-      transition: 1s;
-    }
-}
-
-.nav__bg--enlaces:hover { 
-  color: #b9b8a9; 
-  transform: translate(0px, 1rem);
-  
-}
- */
-
 /* ///contenido main/// */
 .main {
   margin: 5rem auto 0;
@@ -388,23 +353,6 @@ body {
   }
 }
 
-/* .redes-sociales__post {
-  max-width: 100%;
-  height: 30rem;
-  overflow: hidden;
-  background: black;
-  margin-bottom: 1rem;
-}
-
-@media (min-width: 992px) { 
-  .redes-sociales__post {
-    width: 24rem;
-    height: 30rem;
-    overflow: hidden;
-    background: black;
-    margin: 0;
-  }
-} */
 .redes-sociales__imagen {
   transition: 1s;
 }
