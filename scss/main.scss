@@ -1,8 +1,10 @@
 $color-primario: #2e3036;
+$fuente-principal: Krub, sans-serif;
+$color-blanco: white;
 
 html {
   font-size: 62.5%;
-  font-family: "Krub", sans-serif;
+  font-family: $fuente-principal;
 
   box-sizing: border-box;
   max-width: 100%;
@@ -203,7 +205,7 @@ body {
 .main__parrafo {
   text-align: center;
   font-size: 1.5rem;
-  color: white;
+  color: $color-blanco;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -216,7 +218,7 @@ body {
   .main__parrafo {
     text-align: center;
     font-size: 1.7rem;
-    color: white;
+    color: $color-blanco;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -524,8 +526,8 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  border-bottom: 1px solid white;
-  color: white;
+  border-bottom: 1px solid $color-blanco;
+  color: $color-blanco;
   font-size: 1.5rem;
 }
 
@@ -535,7 +537,7 @@ body {
   top: 0.5rem;
   left: 50%;
   transform: translate(-50%, 0%);
-  color: white;
+  color: $color-blanco;
   text-align: center;
 }
 /* media queries para el texto del footer */
@@ -545,7 +547,7 @@ body {
     position: absolute;
     top: 3rem;
     left: 25rem;
-    color: white;
+    color: $color-blanco;
     transform: none;
   }
 }
