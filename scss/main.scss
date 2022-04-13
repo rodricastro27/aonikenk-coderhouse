@@ -1,3 +1,5 @@
+$color-primario: #2e3036;
+
 html {
   font-size: 62.5%;
   font-family: "Krub", sans-serif;
@@ -205,7 +207,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: #2e3036;
+  background-color: $color-primario;
   padding: 1rem;
   margin: 1rem auto;
 }
@@ -218,7 +220,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #2e3036;
+    background-color: $color-primario;
     width: 64rem;
     padding: 2rem;
     margin: 1.7rem auto;
@@ -242,7 +244,7 @@ body {
   width: 30rem;
   margin: 5rem auto;
   height: 1px;
-  background-color: #2e3036;
+  background-color: $color-primario;
 }
 
 @media (min-width: 768px) {
@@ -250,7 +252,7 @@ body {
     width: 50rem;
     margin: 10rem auto;
     height: 1px;
-    background-color: #2e3036;
+    background-color: $color-primario;
   }
 }
 
@@ -259,7 +261,7 @@ body {
     width: 80rem;
     margin: 10rem auto;
     height: 1px;
-    background-color: #2e3036;
+    background-color: $color-primario;
   }
 }
 
@@ -301,7 +303,7 @@ body {
 .nosotros__parrafo {
   text-align: center;
   font-size: 1.5rem;
-  color: #2e3036;
+  color: $color-primario;
   font-family: "Poppins", sans-serif;
   line-height: 1.6;
   max-width: 100%;
@@ -312,7 +314,7 @@ body {
   .nosotros__parrafo {
     text-align: justify;
     font-size: 1.5rem;
-    color: #2e3036;
+    color: $color-primario;
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
   }
@@ -342,7 +344,7 @@ body {
 }
 
 .redes-sociales__enlace {
-  color: #2e3036;
+  color: $color-primario;
   text-decoration: none;
   text-transform: lowercase;
   transition: 0.8s;
@@ -350,7 +352,7 @@ body {
 
 .redes-sociales__enlace:hover {
   color: #f3f3f3;
-  background-color: #2e3036;
+  background-color: $color-primario;
 }
 
 .redes-sociales__container {
@@ -418,7 +420,7 @@ body {
 .footer {
   max-width: 100%;
   height: 30rem;
-  background-color: #2e3036;
+  background-color: $color-primario;
   margin-top: 5rem;
   position: relative;
 }
@@ -427,7 +429,7 @@ body {
   .footer {
     max-width: 100%;
     height: 30rem;
-    background-color: #2e3036;
+    background-color: $color-primario;
     margin-top: 10rem;
     position: relative;
   }
@@ -437,7 +439,7 @@ body {
   .footer {
     max-width: 100%;
     height: 20rem;
-    background-color: #2e3036;
+    background-color: $color-primario;
     margin-top: 10rem;
     position: relative;
   }
@@ -594,7 +596,7 @@ body {
 /* media queries para el contenedor del header */
 @media (min-width: 768px) {
   .header__producto {
-    background-color: #2e3036;
+    background-color: $color-primario;
     width: 100%;
     height: 10rem;
     position: relative;
@@ -647,7 +649,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2e3036;
+  background-color: $color-primario;
 }
 /* media queries para la barra de navegación */
 @media (min-width: 768px) and (max-width: 1200px) {
@@ -814,7 +816,7 @@ body {
 .formulario {
   max-width: 100%;
   margin: 5rem 1rem;
-  background-color: #2e3036;
+  background-color: $color-primario;
   padding: 1rem;
   border-radius: 1rem;
 }
@@ -824,7 +826,7 @@ body {
     max-width: 70rem;
     height: 50rem;
     margin: 10rem auto;
-    background-color: #2e3036;
+    background-color: $color-primario;
     padding: 1rem;
     border-radius: 1rem;
   }
@@ -950,7 +952,7 @@ body {
 
 .formulario__boton:hover {
   transition: 0.3s;
-  background-color: #2e3036;
+  background-color: $color-primario;
   color: #f3f3f3;
 }
 /* fin contacto.html */
@@ -958,7 +960,7 @@ body {
 /* /// faq.html /// */
 .faq__titulo {
   text-align: center;
-  color: #2e3036;
+  color: $color-primario;
   font-family: "Poppins", sans-serif;
   font-size: 3rem;
   font-weight: 700;
@@ -976,7 +978,7 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   color: #f3f3f3;
-  border-left: #2e3036 10px solid;
+  border-left: $color-primario 10px solid;
 }
 /* media queries container preguntas */
 @media (min-width: 1200px) {
@@ -991,7 +993,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     color: #f3f3f3;
-    border-left: #2e3036 10px solid;
+    border-left: $color-primario 10px solid;
   }
 }
 
@@ -999,7 +1001,7 @@ body {
   position: relative;
   left: 0;
   max-width: 90%;
-  background-color: #2e3036;
+  background-color: $color-primario;
   margin: 0 auto;
   padding: 1.5rem;
   font-family: "Poppins", sans-serif;
@@ -1015,7 +1017,7 @@ body {
     position: relative;
     left: 20rem;
     width: 80%;
-    background-color: #2e3036;
+    background-color: $color-primario;
     margin: 0;
     padding: 1.5rem;
     font-family: "Poppins", sans-serif;
