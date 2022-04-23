@@ -1,0 +1,13 @@
+/* HTML PREDETERMINADO */
+html {
+  font-size: 62.5%;
+  font-family: $fuente-principal;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

@@ -1,0 +1,119 @@
+/* INDEX.HTML */
+.main {
+  margin: 5rem auto 0;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.main__producto {
+  margin: auto;
+  max-width: fit-content;
+}
+
+.main__parrafo {
+  text-align: center;
+  font-size: 1.5rem;
+  color: $color-blanco;
+  font-family: $fuente-secundaria;
+  font-weight: $fw-bold;
+  text-transform: uppercase;
+  background-color: $color-primario;
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+.main__imagen {
+  box-shadow: $box-shadow;
+  opacity: 0.95;
+  max-width: 100%;
+  margin: auto;
+}
+
+/* comportamiento :hover al mover el mouse sobre los productos del sitio */
+.main__imagen:hover {
+  opacity: unset;
+}
+
+/* .css para barra separadora de contenido */
+.barra-separadora {
+  width: 30rem;
+  margin: 5rem auto;
+  height: 1px;
+  background-color: $color-primario;
+}
+
+/* ///sección nosotros/// */
+.nosotros {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.nosotros__imagen {
+  box-shadow: $box-shadow;
+  max-width: 100%;
+}
+
+.nosotros__parrafo {
+  text-align: center;
+  font-size: 1.5rem;
+  color: $color-primario;
+  font-family: $fuente-secundaria;
+  line-height: 1.6;
+  max-width: 100%;
+  margin: 0 1rem;
+}
+
+/* ///instagram feed/// */
+.carousel__container {
+  width: 240px;
+}
+.redes-sociales__titulo {
+  font-family: $fuente-secundaria;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.redes-sociales__enlace {
+  color: $color-primario;
+  text-decoration: none;
+  text-transform: lowercase;
+  transition: 0.8s;
+}
+
+.redes-sociales__enlace:hover {
+  color: $color-secundario;
+  background-color: $color-primario;
+}
+
+.redes-sociales__container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 100%;
+  max-height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+}
+
+.redes-sociales__imagen {
+  transition: 1s;
+}
+
+.redes-sociales__imagen:hover {
+  transform: scale(1.05);
+  opacity: 0.5;
+}
+
+/* Fin .css para el index.html */

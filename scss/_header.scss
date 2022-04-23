@@ -1,0 +1,32 @@
+/* HEADER SECUNDARIO */
+
+.header__producto {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.header__container--producto {
+  width: 10rem;
+  display: hidden;
+}
+
+.header__logo--producto {
+  position: absolute;
+  top: 0.5rem;
+  left: 2rem;
+  width: 100px;
+  height: 70px;
+  display: none;
+  z-index: 1;
+}
+
+.nav__bg--producto {
+  max-width: 100%;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-primario;
+}

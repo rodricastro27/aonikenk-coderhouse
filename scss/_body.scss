@@ -1,0 +1,8 @@
+/* BODY BACKGROUND */
+body {
+  background-image: linear-gradient(
+    to top,
+    $background-color-primario 25%,
+    $background-color-secundario 50%
+  ); /* gradiente hacia arriba para el background del elemento body */
+}
