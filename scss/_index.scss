@@ -109,11 +109,11 @@
 
 .redes-sociales__imagen {
   transition: 1s;
-}
 
-.redes-sociales__imagen:hover {
-  transform: scale(1.05);
-  opacity: 0.5;
+  &:hover {
+    transform: scale(1.05);
+    opacity: 0.5;
+  }
 }
 
 /* Fin .css para el index.html */

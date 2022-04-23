@@ -87,11 +87,12 @@
 
 .formulario__boton {
   cursor: pointer;
+
+  &:hover {
+    transition: 0.3s;
+    background-color: $color-primario;
+    color: $color-secundario;
+  }
 }
 
-.formulario__boton:hover {
-  transition: 0.3s;
-  background-color: $color-primario;
-  color: $color-secundario;
-}
 /* fin contacto.html */

@@ -17,11 +17,11 @@
   max-width: 100%;
   max-height: 100%;
   transition: 2s;
-}
 
-.imagen__producto:hover {
-  transform: scale(1.1);
-  opacity: 0.5;
+  &:hover {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
 }
 
 .contenido__principal--enlace {

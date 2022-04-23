@@ -253,10 +253,9 @@ body {
 
 .redes-sociales__imagen {
   transition: 1s; }
-
-.redes-sociales__imagen:hover {
-  transform: scale(1.05);
-  opacity: 0.5; }
+  .redes-sociales__imagen:hover {
+    transform: scale(1.05);
+    opacity: 0.5; }
 
 /* Fin .css para el index.html */
 /* PRODUCTO.HTML */
@@ -276,10 +275,9 @@ body {
   max-width: 100%;
   max-height: 100%;
   transition: 2s; }
-
-.imagen__producto:hover {
-  transform: scale(1.1);
-  opacity: 0.5; }
+  .imagen__producto:hover {
+    transform: scale(1.1);
+    opacity: 0.5; }
 
 .contenido__principal--enlace {
   background-color: transparent;
@@ -399,11 +397,10 @@ body {
 
 .formulario__boton {
   cursor: pointer; }
-
-.formulario__boton:hover {
-  transition: 0.3s;
-  background-color: #2e3036;
-  color: #f3f3f3; }
+  .formulario__boton:hover {
+    transition: 0.3s;
+    background-color: #2e3036;
+    color: #f3f3f3; }
 
 /* fin contacto.html */
 /* /// faq.html /// */
