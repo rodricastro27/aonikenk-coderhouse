@@ -453,7 +453,7 @@
     font-family: $fuente-secundaria;
     font-size: 1.5rem;
     font-weight: $fw-bold;
-    color: $color-secundario;
+    color: map-get($colores, secundario);
     border-left: $color-primario 10px solid;
   }
 }
@@ -470,7 +470,7 @@
     font-family: $fuente-secundaria;
     font-size: 1.5rem;
     font-weight: $fw-light;
-    color: $color-secundario;
+    color: map-get($colores, secundario);
     margin-bottom: 2rem;
     border-left: #b9b8a9 10px solid;
   }

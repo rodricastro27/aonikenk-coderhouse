@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Mapas */
+/* Mixins */
 /* FUENTES */
 @import url("https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Poppins:wght@400;700&display=swap");
 /* HTML PREDETERMINADO */
@@ -385,7 +387,7 @@ body {
   display: block;
   justify-content: center; }
 
-.formulario__boton {
+.formulario__boton, .formulario__boton--enviar {
   text-align: center;
   font-family: "Poppins", sans-serif;
   width: 100%;
@@ -395,15 +397,18 @@ body {
   border-radius: 0.5rem;
   justify-content: center; }
 
-.formulario__boton {
+.formulario__boton--enviar {
+  background-color: #d3d1c2; }
+
+.formulario__boton, .formulario__boton--enviar {
   cursor: pointer; }
-  .formulario__boton:hover {
+  .formulario__boton:hover, .formulario__boton--enviar:hover {
     transition: 0.3s;
     background-color: #2e3036;
     color: #f3f3f3; }
 
 /* fin contacto.html */
-/* /// faq.html /// */
+/* FAQ.HTML */
 .faq__titulo {
   text-align: center;
   color: #2e3036;
@@ -783,7 +788,7 @@ body {
 
 /* media queries para los botones */
 @media (min-width: 768px) {
-  .formulario__boton {
+  .formulario__boton, .formulario__boton--enviar {
     text-align: center;
     font-family: "Poppins", sans-serif;
     width: 100%;

@@ -85,6 +85,11 @@
   justify-content: center;
 }
 
+.formulario__boton--enviar {
+  @extend .formulario__boton;
+  background-color: map-get($colores, background-primario);
+}
+
 .formulario__boton {
   cursor: pointer;
 

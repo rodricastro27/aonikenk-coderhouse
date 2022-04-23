@@ -18,7 +18,7 @@
   font-size: 1.5rem;
   color: $color-blanco;
   font-family: $fuente-secundaria;
-  font-weight: $fw-bold;
+  @include font-weight(700);
   text-transform: uppercase;
   background-color: $color-primario;
   padding: 1rem;
