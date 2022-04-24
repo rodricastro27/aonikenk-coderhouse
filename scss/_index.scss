@@ -30,11 +30,10 @@
   opacity: 0.95;
   max-width: 100%;
   margin: auto;
-}
 
-/* comportamiento :hover al mover el mouse sobre los productos del sitio */
-.main__imagen:hover {
-  opacity: unset;
+  &:hover {
+    opacity: unset;
+  }
 }
 
 /* .css para barra separadora de contenido */
@@ -89,11 +88,11 @@
   text-decoration: none;
   text-transform: lowercase;
   transition: 0.8s;
-}
 
-.redes-sociales__enlace:hover {
-  color: $color-secundario;
-  background-color: $color-primario;
+  &:hover {
+    color: $color-secundario;
+    background-color: $color-primario;
+  }
 }
 
 .redes-sociales__container {
