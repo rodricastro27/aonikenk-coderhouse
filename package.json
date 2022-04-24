@@ -1,7 +1,7 @@
 {
-  "name": "Aonikenk - Proyecto Coderhouse",
+  "name": "proyecto-coderhouse",
   "version": "1.0.0",
-  "description": "Página web de una tienda para el curso de Desarrollo Web",
+  "description": "Página de una tienda para el curso de Desarrollo Web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
