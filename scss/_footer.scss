@@ -61,8 +61,7 @@
 }
 
 .footer__logo--imagen {
-  width: auto;
-  height: auto;
+  max-width: auto;
   animation: footer-logo 2s infinite alternate;
   animation-timing-function: linear;
 }
